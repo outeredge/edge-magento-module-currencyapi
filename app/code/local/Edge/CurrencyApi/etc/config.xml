@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Edge_CurrencyApi>
+            <version>1.0.0</version>
+        </Edge_CurrencyApi>
+    </modules>
+    <global>
+        <models>
+            <directory>
+                <rewrite>
+                    <currency_import_webservicex>Edge_CurrencyApi_Model_Currency_Import_Webservicex</currency_import_webservicex>
+                </rewrite>
+            </directory>
+        </models>
+    </global>
+</config>
