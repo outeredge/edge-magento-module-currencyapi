@@ -1,0 +1,21 @@
+{
+    "name": "outeredge/edge-magento-module-currencyapi",
+    "type": "magento-module",
+    "description": "Currency API module by outer/edge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "hello@outeredgeuk.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/local/Edge/CurrencyApi", "app/code/local/Edge/CurrencyApi"],
+            ["app/etc/modules/Edge_CurrencyApi.xml", "app/etc/modules/Edge_CurrencyApi.xml"]
+        ]
+    }
+}
